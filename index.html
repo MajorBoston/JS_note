@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JavaScript.js"></script>
+    <title>JS lessons</title>
+</head>
+<body onload="timer()">
+
+    Секунд пройшло <span id="count">-1</span>
+
+   <form action="" method="post" name="test" id="form"> 
+        <label for="name">Ім'я:</label>
+        <input type="text" name="name" placeholder="Ім'я" id="name"><br /><br />
+        <label for="email">Email:</label>
+        <input type="text" name="email" placeholder="email" id="email"><br /><br />
+        <label for="password">Пароль:</label>
+        <input type="password" name="password" placeholder="Пароль" id="password"><br /><br />
+        <label for="RePassword">Перевірка пароля:</label>
+        <input type="password" name="RePassword" placeholder="Ввести пароль" id="RePassword"><br /><br />
+        <span>Стать:</span>
+        <input type="radio" name="gender" id="male" value="Чоловік"/> <label for="male">Чоловік</label>
+        <input type="radio" name="gender" id="female" value="Жінка"/> <label for="female">Жінка</label> <br /><br />
+        <input type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Готово" />
+    </form><br /> 
+
+
+</body>
+</html>
